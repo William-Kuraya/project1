@@ -1,7 +1,95 @@
+*{
+    font-family: Arial;
+}
 .homepage{
     list-style: none;
     padding: 0;
     border: 0;
     border-style: none;
     background-color: gainsboro;
+}
+.car1{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+nav {
+    background-color: black;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+.Buy{
+    background-color: black;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.Buy:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.Buy:active{
+    background-color: white;
+    color: black;
+}
+.ty{
+    background-color: gold;
+    color: purple;
+    text-align: center;
+    font-family: Arial;
+    font-style: italic;
+}
+.hi{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+    color: white;
+}
+.to{
+    margin-right: 200px;
+    color: white;
+}
+h2{
+    background-color: blue;
+    font-size: 30px;
+    text-align: center;
+}
+.we{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.oi{
+    color: white;
+    padding-right: 850px;
+}
+.gh{
+    background-color: black;
+    color: white;
+    text-align: center;
 }
